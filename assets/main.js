@@ -11,7 +11,7 @@ rollButton.addEventListener("click", function () {
    //let randNum = Math.floor(Math.random() * 7);
    
    while (counter < newUserInput) {
-      dieRolls.push(Math.floor(Math.random() * 7) )
+      dieRolls.push(Math.floor(Math.random() * 7) + 1 )
       counter += 1
     }
     
